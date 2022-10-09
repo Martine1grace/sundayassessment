@@ -4,42 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>kitone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="build/style.css">
 </head>
 <body>
-<header class="bg-white">
-    <div  class="flex">
-        <div class="   ">
-            <img src="./images/Logo_KIT.svg.png"  class="h-20 mx-10" >
-        </div>
-    <div >
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Plain Language</li>
-                <li>Legals</li>
-                <li>Privacy policy</li>
-                <li>Accessibility</li>
-                <li>Sitemap</li>
-                <li>Intranet</li>
-                <li><a href="https://www.kit.edu/english/"><span class="svg-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 299.4 295.7" width="299.4px" height="295.7px" role="img">
-                    <title></title>
-                    <polygon points="299.3,295.7 299.3,295.6 299.3,295.6 "></polygon>
-                    <polygon points="299.3,295.6 299.3,295.6 299.3,295.6 "></polygon>
-                    <path d="M67.9,108.1c-15.6,18.9-28.8,39.6-39.3,61.7l270.6,125.9L67.9,108.1z"></path>
-                    <path d="M299.2,295.6L173,27.2c-22.2,10.2-43,23.1-62,38.4l188.3,230.1L299.2,295.6z"></path>
-                    <polygon points="299.3,295.6 299.3,295.6 299.3,295.6 299.3,295.5 "></polygon>
-                    <polygon points="299.3,295.6 299.3,295.6 299.3,295.6 299.3,295.5 "></polygon>
-                    <path d="M9.3,223.2c-6.1,23.7-9.2,48-9.3,72.5h299.2L9.3,223.2z"></path>
-                    <path d="M299.3,295.6l0.1-295.6c-0.8,0-1.5-0.1-2.2-0.1c-23.6,0-47,2.8-69.9,8.4L299.3,295.6L299.3,295.6z"></path>
-                </svg></span><span>KIT</span></a></li>
-            </ul>
+    <header class="bg-white border w-full h-24 flex">
+        <nav class="flex">
+            <div class=" ">
+                <img class="md:mt-6 md:ml-8 mt-2 md:w-24 md:h-12" src="./images/Logo_KIT.svg.png" alt="">
+            </div>
+            <div class="flex flex-col justify-center ml-96  mt-8">
+                <div class="hidden md:flex md:space-x-8 ">
+                    <div class="space-x-8 flex text-sm font-thin ml-10 ">
+                        <a class="hover:text-green-500" href="">Home</a>
+                        <a class="hover:text-green-500" href="">Plain Language</a>
+                        <a class="hover:text-green-500" href="">Legals</a>
+                        <a class="hover:text-green-500" href="">Privacy Policy</a>
+                        <a class="hover:text-green-500" href="">Accessibility</a>
+                        <a class="hover:text-green-500" href="">Sitemap</a>
+                        <a class="hover:text-green-500" href="">Intanet</a>
+                        <div class="hover:text-green-500 flex space-x-2">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                </svg>
+                            </div>
+                            <span>KIT</span>
+                        </div>
+                        <div class="hover:text-green-500 flex space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                            <span>DE</span>
+                        </div>
+                        <div class="hover:text-green-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex md:space-x-4 ml-96 text-sm mt-2">
+                    <a class="hover:text-green-500" href="">KIT</a>
+                    <a class="hover:text-green-500" href="">Topics</a>
+                    <a class="hover:text-green-500" href="">Studies</a>
+                    <a class="hover:text-green-500" href="">Reaserch</a>
+                    <a class="hover:text-green-500" href="">Innovation</a>
+                    <a class="hover:text-green-500" href="">Career</a>
+                    <div class="hover:text-green-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
         </nav>
-
-    </div>
-    </div>
-</header>
+        <!--Moblie-->
+        <div class="md:hidden flex -m">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+        </div>
+    </header>
 
 <section>
     <div style="background-image: url('./images/header_klimaforschung-Afrika_schattiert.jpg');" class="w-full h-screen relative   bg-no-repeat bg-cover sm:relative ">
@@ -187,7 +245,226 @@
       </div>
     </div>
   </section>
+  <!-- ---- -->
+  <section>
+    <div class="flex md:w-1/2 p-4 ">
+        <div class="bg-green-500 text-white rounded-r-2xl text-center space-x-2">
+            <h1 class="underlined"> Excellence </h1>
 
+            As a University of Excellence, KIT strengthens excellent research, maintains intensive dialog with society, and offers reliable career paths.</div>
+        <div class="bg-green-500 text-white text-center space-x-2">
+           <h1 class="underlined">  Research University in the Helmholtz Association</h1>
+
+KIT is the only German university of excellence that combines a long university tradition with large-scale national research.
+        </div>
+    </div>
+  </section>
+
+  <!--  -->
+<!--  -->
+<!-- <section>
+    <div class="pl-3 pr-3 ">
+        
+        <div class="grid grid-cols-2 mt-6 gap-10 "> 
+        <div>
+            <h1 class="font-bold text-lg ">Events</h1>
+            <img src="./images/event.jpg"  width="100%" style="position:relative" alt="">
+            <a href="" >
+                <h4 class="text-green-500  mt-2 font-semibold">Kunst Kurz und Knapp</h4>
+                <span class="time text-green-500">2022-10-10 12:00 - 12:15</span><br>
+                <span class="mt-4">KIT, Campus Süd
+                    Engler-Bunte-Institut
+                    südl. Außenbereich, Geb.40.11, 40.12
+                    76131 Karlsruhe</span>
+            </a>
+            <div class="description">Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, Vereinigung, 1992<br>
+
+                Dauer: 10-15 Minuten<br>
+                
+                Die Teilnehmerzahl ist begrenzt, deshalb ist eine Anmeldung unter kunst@kit.edu dringend erforderlich.&nbsp;<br>
+                </div>
+                <p></p>
+        </div>
+
+        <div class="mt-9 p-5" >
+            <div class="flex  mb-4">
+                <div class="w-1/4  bg-white hover:bg-green-500 hover:text-white border-l-4 border-green-500 h-12"> 10/10/2022</div>
+                <div class="w-3/4 bg-gray-500 h-auto">
+                    <div class=""><span class="font-semibold text-xl">Kunst Kurz und Knapp</span>
+                        <div class="">Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, Vereinigung, 1992
+
+                        Dauer: 10-15 Minuten
+                        
+                        Die Teilnehmerzahl ist begrenzt, deshalb ist eine Anmeldung unter kunst@kit.edu dringend erforderlich.&nbsp;
+                        </div></div>
+                </div>
+                
+               
+              </div>   
+        </div>
+    </div>
+    </div>
+ </section> -->
+ <section class="section_three px-6 md:px-8 pt-5">
+    <h1 class="">Events</h1>
+    <div class="flex justify-end uppercase text-sm calender-container hidden md:flex">
+        <a class="link-more" href="/kit/english/calendar-of-events.php">to event calendar</a>
+    </div>
+    <div class="flex flex-col md:flex-row mt-8 gap-8">
+        <div class=" col-1 md:w-1/2 ">
+            <img src="https://www.kit.edu/admin/events/images/ajax/image.php?ev_id=36182&format=widget" alt=""
+                srcset="" class="w-full">
+            <div>
+                <a tabindex="-1" href="/" title="2022-10-10: Kunst Kurz und Knapp">
+                    <h4 class="h4 my-5">Kunst Kurz und Knapp</h4>
+                    <span class="time mt-3 w-full block">2022-10-10 12:00 - 12:15</span>
+                    <span class="place  block">KIT, Campus Süd
+                        Engler-Bunte-Institut
+                        südl. Außenbereich, Geb.40.11, 40.12
+                        76131 Karlsruhe</span>
+                    <div class="description">Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, Vereinigung,
+                        1992<br>
+
+                        Dauer: 10-15 Minuten<br>
+
+                        Die Teilnehmerzahl ist begrenzt, deshalb ist eine Anmeldung unter kunst@kit.edu dringend
+                        erforderlich.&nbsp;<br>
+                    </div>
+                    <p></p>
+                </a>
+            </div>
+            
+        </div>
+        <div class="flex justify-end uppercase text-sm calender-container md:hidden">
+            <a class="link-more" href="/kit/english/calendar-of-events.php">to event calendar</a>
+        </div>
+        <div class="flex flex-col md:w-1/2">
+            <div class="flex stat-row gap-4">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, Vereinigung, 1992 nd erforderlich. </p>
+                </div>
+            </div>
+            <div class="flex stat-row gap-4 mt-5">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, Vereinigung, dringend erforderlich. </p>
+                </div>
+            </div>
+            <div class="flex stat-row gap-4 mt-5">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, nd erforderlich. </p>
+                </div>
+            </div>
+            <div class="flex stat-row gap-4 mt-5">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit von Charlotte Sommer-Landgraf, nd erforderlich. </p>
+                </div>
+            </div>
+            <div class="flex stat-row gap-4 mt-5">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit von Charlottdringend erforderlich. </p>
+                </div>
+            </div>
+            <div class="flex stat-row gap-4 mt-5">
+                <div class="w-3/12 flex justify-center items-center">
+                    10/10<br/>
+                    2022
+                </div>
+                <div class="w-9/12 col-right">
+                    <h5>Kunst Kurz und Knapp</h5>
+                    <p>Kunstführung zur Arbeit st begrenzt, deshalb ist eine Anmeldung unter kunst@kit.edu dringend erforderlich. </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+ <!-- ---footer -->
+ <div class="bg-gray-200"> 
+ <div class="grid grid-cols-2 gap-3 lg:grid-cols-6 mx-5 lg:mx-10 xl:mx-20 pb-10">
+    <div>
+        <h1 class="border-b-3 border-green-500">Visiting</h1>
+        <a href="" class="text-green-500 border-black border-b-2">How to reach the KIT</a><br>
+        <a href="" class="text-green-500  border-black border-b-2">Campus Map</a><br>
+        <a href="" class="text-green-500 border-black border-b-2">Event</a><br>
+        <a href="" class="text-green-500 border-black border-b-2">KIT-Shop</a>
+    </div>
+    <div>
+        <h1 class="border-b-3 border-green-500">Applying</h1>
+        <a href="" class="text-green-500 border-black border-b-2">Jobs</a> <br>
+        <a href="" class="text-green-500  border-black border-b-2">Study Courses</a><br>
+        <a href="" class="text-green-500 border-black border-b-2">Trainee Positions</a><br>
+        <a href="" class="text-green-500 border-black border-b-2">PhD Program</a>
+    </div>
+    <div>
+        <h1 class="border-b-3 border-green-500">Media</h1>
+        <a href="" class="text-green-500 border-b-2">Press Releases</a><br>
+        <a href="" class="text-green-500 border-b-2">Contact for the Media</a>
+    </div>
+   
+<!--  -->
+<div class="" >
+    <div>
+        <div>
+            <h1 class="border-b-3 border-green-500">Contact</h1>
+           <p>Karlsruhe Institute of Technology
+            Phone: +49 721 608-0
+            Fax: +49 721 608-44290
+            Email:<span class="text-green-500">info∂kit edu</span> 
+           <span class="text-green-500"> Staff Search </span>
+            
+            Address</p>
+            
+        </div>
+    </div>
+    <div>hr</div>
+<div class="flex space-x-4">
+    <div class="border">
+        <img class="w-8 h-8" src="./images/ig-black.png" alt="">
+    </div>
+    <div>
+        <img class="w-8 h-8" src="./images/download (2).png" alt="">
+    </div>
+    <div>
+        <img class="w-8 h-8" src="./images/download (1).png" alt="">
+    </div>
+    <div>
+        <img class="w-8 h-8" src="./images/youtube.png" alt="">
+    </div>
+    <div>
+        <img class="w-8 h-8" src="./images/download (1).png" alt="">
+    </div>
+</div>
+</div>
+</div>
+</div>
+ 
 
 </body>
 </html>
