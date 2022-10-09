@@ -1,15 +1,21 @@
 {
-  "name": "sundayassessment",
+  "name": "clonedsoprasteria",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "dev": "vite"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.1.8"
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0"
   }
 }
